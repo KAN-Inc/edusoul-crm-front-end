@@ -20,7 +20,6 @@ export const _ = styled.div`
         & > div {
           height: 100%;
           width: 100%;
-          background-color: #3e6bec;
         }
       `,
     }[props.attr])}

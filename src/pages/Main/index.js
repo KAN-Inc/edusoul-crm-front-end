@@ -2,6 +2,7 @@ import * as Styled from "./style";
 
 import LeftBar from "../../components/LeftBar";
 import TopBar from "../../components/TopBar";
+import Students from "../Students/index";
 
 const Main = (props) => {
   return (
@@ -10,7 +11,9 @@ const Main = (props) => {
       <Styled._ attr="center">
         <TopBar />
         <Styled._ attr="content">
-          <div>Main Content goes here</div>
+          <div>
+            <Students />
+          </div>
         </Styled._>
       </Styled._>
     </Styled._>
