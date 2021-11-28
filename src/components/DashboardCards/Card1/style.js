@@ -18,22 +18,21 @@ export const CardTitle = styled.div`
 `;
 
 export const CardBadge = styled.div`
-    display: flex;
-    height: 100%;
-    border-top-right-radius: 10px;
-    align-items: center;
-    justify-content: center;
-    padding: 0 12px;
-    background: #fff;
-    border-left: 1px solid #406cec;
-    color: #406CEC;
-    &:hover {
-        background #3e6bec;
-        color: #fff;
-        cursor: pointer;
-        border-left: 1px solid #fff;
-        }
-    }
+  display: flex;
+  height: 100%;
+  border-top-right-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 12px;
+  background: #fff;
+  border-left: 1px solid #406cec;
+  color: #406cec;
+  &:hover {
+    background: #3e6bec;
+    color: #fff;
+    cursor: pointer;
+    border-left: 1px solid #fff;
+  }
 `;
 
 export const CardBody = styled.div`
