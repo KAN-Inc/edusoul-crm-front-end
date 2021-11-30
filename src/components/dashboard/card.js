@@ -40,6 +40,13 @@ export const CardBody = styled.div`
   display: flex;
   flex-direction: column;
   background: #fff;
-  height: 175px;
+  min-height: 175px;
   padding: 10px;
+`;
+
+export const CardFooter = styled.div`
+  background: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
 `;

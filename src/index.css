@@ -17,3 +17,19 @@ body {
   width: 100%;
   overflow: hidden;
 }
+input[type="file"] {
+  display: none;
+}
+.file_button {
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background: #3e6bec;
+  padding: 5px 25px;
+  font-size: 16px;
+}
+
+.file_button:hover {
+  cursor: pointer;
+}
