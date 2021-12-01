@@ -2,7 +2,8 @@ import * as Styled from "./style";
 
 import LeftBar from "../../components/LeftBar";
 import TopBar from "../../components/TopBar";
-import Students from "../Students/index";
+import Students from "../Students";
+import Attendance from "../Attendance";
 
 const Main = (props) => {
   return (
@@ -12,7 +13,7 @@ const Main = (props) => {
         <TopBar />
         <Styled._ attr="content">
           <div>
-            <Students />
+            <Attendance />
           </div>
         </Styled._>
       </Styled._>

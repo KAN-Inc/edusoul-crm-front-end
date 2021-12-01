@@ -6,7 +6,7 @@ import columns from "../../data/studentsColumns";
 import BaseTable from "../../components/BaseTable";
 import NavBar from "../../components/NavBars/students";
 
-import * as Styled from "./style";
+import * as Styled from "../style";
 
 const Students = (props) => {
   const [globalFilter, setGlobalFilter] = useState();
