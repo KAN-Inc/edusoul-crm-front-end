@@ -1,10 +1,21 @@
 import { useMemo } from "react";
 
 import * as Styled from "../components/TableUIComponents/style";
+import { DollarIcon } from "../constants/icons";
 
 const Columns = () => {
   return useMemo(
     () => [
+      {
+        Header: "",
+        accessor: "feeStatus",
+        width: "1%",
+        Cell: ({ row }) => (
+          <Styled._ attr="icon">
+            {row.original.feeStatus === "notPaid" ? <DollarIcon /> : ""}
+          </Styled._>
+        ),
+      },
       {
         Header: () => <Styled.Header>Fullname</Styled.Header>,
         accessor: "firstName",
